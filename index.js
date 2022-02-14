@@ -5,7 +5,7 @@ const se = new Audio(
   "https://dl.dropbox.com/s/pjf5iswhy43fc1f/camera-shutter3.mp3"
 );
 se.play();
-let c = 6 * 60 * 60;
+let c = 30;
 setInterval(() => {
   $("#hour").text(Math.floor(c / 3600));
   $("#min").text(Math.floor((c % 3600) / 60));
